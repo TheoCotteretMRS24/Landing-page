@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Far From Home - T-Shirt Vente Limitée</title>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <nav id="Navbar">
+    <ul>
+      <li><a href="#hero">Accueil</a></li>
+      <li><a href="#presentation-produit">Produits</a></li>
+      <li><a href="#histoire-produit">Histoire</a></li>
+      <li><a href="#inscription">Inscription</a></li>
+    </ul>
+  </nav>
+
+  <div id="hero">
+    <h1>Inscription à la vente limitée des T-shirts de la collection "Provence"</h1>
+    <div id="countdown">
+      <h2>Compte à rebours avant la fin de la pré-vente :</h2>
+      <div id="timer"></div>
+    </div>
+
+    <p>Ne manquez pas votre chance d'acquérir un tee-shirt unique !</p>
+    <a href="#inscription" class="cta-btn">Inscrivez-vous maintenant</a>
+  </div>
+
+  <section id="presentation-produit" class="card">
+    <h2>FFH' MERCH #001</h2>
+        <img src="teeshirt.png" alt="Design T-shirt" class="product-img">
+      </div>
+      <div class="product-details">
+        <h1>T-SHIRT PROVENCE UNISEXE</h1>
+        <p class="price">50 €</p>
+        <p class="description">Unisexe. T-shirt en coton bio avec un petit logo FAR FROM HOME sur le cœur.</p>
+        <p><strong>Couleur :</strong> Blanc</p>
+        <p>Le T-shirt "Provence" de Far From Home.</p>
+
+        <button class="accordion">Description</button>
+        <div class="panel">
+          <ul>
+            <li><strong>Modèle :</strong> Unisexe.</li>
+            <li><strong>Couleur :</strong> Blanc.</li>
+            <li><strong>Coupe :</strong> Droite, col rond.</li>
+            <li><strong>Logo :</strong> Petit logo bleu imprimé FARFROMHOME ITEM 001.</li>
+          </ul>
+        </div>
+
+        <button class="accordion">Matière & Entretien</button>
+        <div class="panel">
+          <ul>
+            <li><strong>Matière :</strong> 100% coton biologique.</li>
+            <li><strong>Origine :</strong> Made in Portugal.</li>
+            <li><strong>Entretien :</strong> Lavage machine à 30° sur l'envers.</li>
+          </ul>
+        </div>
+
+        <div class="size-selector">
+          <p><strong>Taille :</strong></p>
+          <div class="sizes">
+            <button>S</button>
+            <button>M</button>
+            <button>L</button>
+            <button>XL</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="histoire-produit" class="card">
+    <h2>Histoire de notre T-shirt</h2>
+    <div class="histoire-du-produit">
+      <p><strong>Designer :</strong> Ofa</p>
+      <p><strong>Présentation de Ofa:</strong> Mon nom d'artiste est Ofa, j'ai 21 ans et je suis en école de graphisme à Marseille.</p>
+      <p><strong>Mes inspirations :</strong> Mes inspirations sont variées. J'ai pas encore trouvé ma patte graphique propre, mais au fil du temps je commence à la trouver. J'ai différentes influences d'artistes tels que Basquiat et Mucha, ainsi que de l'art nouveau, même si ça ne se ressent pas trop dans mon style actuel.</p>
+      <p><strong>La réalisation du design :</strong> Pour réaliser cette illustration, j’ai fait beaucoup de veille de ce qui existait, cherchant des ambiances du sud pour trouver quelque chose d’esthétiquement intéressant à représenter. J’ai voulu créer un design qui évoque directement ce que vous m’aviez demandé, et j’en suis arrivé sur le champ de lavande. Cela m’a permis de jouer avec plusieurs couleurs et de rendre le dessin vivant et coloré grâce à ce violet, ainsi qu'au ciel avec un personnage jaune qui ressort bien.</p>
+      <p><strong>Croquis :</strong> Je me suis inspiré des tons neutres de la pierre et du ciel bleu pour choisir les couleurs, en voulant que le logo soit discret mais puissant. Ce tee-shirt est une véritable ode à la Provence. Découvrez mes croquis et mon processus créatif qui ont mené à la réalisation de cette collection.</p>
+      <img src="teeshirt.png" alt="Design" class="sketch">
+      <p><strong>Les réseaux sociaux :</strong></p>
+      <a href="https://www.instagram.com/theo.charbon?igsh=MW44aW5hYWFkbjc0dw==" target="_blank" class="social-link">
+        <i class="fab fa-instagram"></i> 
+      </a>
+    </div>
+  </section>
+
+  <div id="inscription" class="card">
+    <h2>Inscription</h2>
+    <form>
+      <label for="first-name">Prénom :</label>
+      <input type="text" id="first-name" name="first-name" required>
+
+      <label for="last-name">Nom :</label>
+      <input type="text" id="last-name" name="last-name" required>
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="size">Taille :</label>
+      <select id="size" name="size" required>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+      </select>
+
+      <button type="submit">S'inscrire</button>
+    </form>
+  </div>
+
+  <!-- Section des moyens de paiement -->
+  <section class="payment-methods">
+    <h2>Moyens de paiement acceptés</h2>
+    <div class="payment-icons">
+      <i class="fab fa-cc-visa"></i>
+      <i class="fab fa-cc-mastercard"></i>
+      <i class="fab fa-cc-paypal"></i>
+      <i class="fab fa-cc-amex"></i>
+    </div>
+  </section>
+
+  <footer>
+    <p>Far From Home © 2024 Tous droits réservés.</p>
+    <p>Contactez-nous : <a href="mailto:farfromhome.help@gmail.com">farfromhome.help@gmail.com</a></p>
+    <a href="cgv.html">CGV</a>
+  </footer>
+</body>
+
+</html>
